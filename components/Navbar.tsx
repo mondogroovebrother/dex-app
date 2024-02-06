@@ -15,7 +15,7 @@ export default function Navbar() {
         px={{ base: "5", xl: "0" }}
       >
         <Text fontWeight="bold" fontSize="2xl">
-          Token DEX
+          Kekel Token DEX
         </Text>
         <ConnectWallet theme="light" />
       </Flex>

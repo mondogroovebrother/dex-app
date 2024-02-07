@@ -14,7 +14,6 @@ import {
 import { ACTIVE_CHAIN, DEX_ADDRESS, TOKEN_ADDRESS } from "@/const/details";
 import {
   ConnectWallet,
-  resolveIpfsUri,
   toEther,
   toWei,
   useAddress,
@@ -186,7 +185,6 @@ export default function Home() {
             max={nativeBalance?.displayValue}
             value={nativeValue}
             setValue={setNativeValue}
-            tokenImage={resolveIpfsUri(ACTIVE_CHAIN.icon!.url)}
           />
 
           <Button
